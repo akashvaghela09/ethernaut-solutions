@@ -17,3 +17,6 @@ level03:
 
 level04: 
 	forge script script/Level04.s.sol --tc TelephoneScript --rpc-url $(RPC_URL) --broadcast --legacy --private-key $(PRIVATE_KEY)
+
+level05: 
+	forge script script/Level05.s.sol --rpc-url $(RPC_URL) --broadcast --legacy --private-key $(PRIVATE_KEY)
