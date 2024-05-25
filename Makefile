@@ -11,3 +11,6 @@ level01:
 
 level02: 
 	forge script script/Level02.s.sol --rpc-url $(RPC_URL) --broadcast --legacy --private-key $(PRIVATE_KEY)
+
+level03: 
+	forge script script/Level03.s.sol --tc CoinFlipScript --rpc-url $(RPC_URL) --broadcast --legacy --private-key $(PRIVATE_KEY)
