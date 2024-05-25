@@ -8,3 +8,6 @@ level00:
 
 level01: 
 	forge script script/Level01.s.sol --rpc-url $(RPC_URL) --broadcast --legacy --private-key $(PRIVATE_KEY)
+
+level02: 
+	forge script script/Level02.s.sol --rpc-url $(RPC_URL) --broadcast --legacy --private-key $(PRIVATE_KEY)
