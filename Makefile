@@ -5,3 +5,6 @@ run_deploy:
 
 level00: 
 	forge script script/Level00.s.sol --rpc-url $(RPC_URL) --broadcast --legacy --private-key $(PRIVATE_KEY)
+
+level01: 
+	forge script script/Level01.s.sol --rpc-url $(RPC_URL) --broadcast --legacy --private-key $(PRIVATE_KEY)
