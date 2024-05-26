@@ -26,3 +26,6 @@ level06:
 
 level07: 
 	forge script script/Level07.s.sol --tc ForceScript --rpc-url $(RPC_URL) --broadcast --legacy --private-key $(PRIVATE_KEY)
+
+level08: 
+	forge script script/Level08.s.sol --rpc-url $(RPC_URL) --broadcast --legacy --private-key $(PRIVATE_KEY)
