@@ -32,3 +32,6 @@ level08:
 
 level09: 
 	forge script script/Level09.s.sol --tc KingScript --rpc-url $(RPC_URL) --broadcast --legacy --private-key $(PRIVATE_KEY)
+
+level10: 
+	forge script script/Level10.s.sol --tc ReentranceScript --rpc-url $(RPC_URL) --broadcast --legacy --private-key $(PRIVATE_KEY)
